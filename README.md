@@ -13,7 +13,7 @@ Aplikacja umożliwia podgląd statystyk z linią trendu.
 6. **.gitignore** - pliki zignorowane przez Git.
 
 ## Wymagania
-- Python 2.11 lub nowszy
+- Python 3.13 lub nowszy
 - pip
 
 ## Instalacja i uruchomienie
@@ -40,7 +40,7 @@ Aplikacja umożliwia podgląd statystyk z linią trendu.
 + Reset sesji i tworzenie nowej
 
 ## Technologie
-* Python 2.11+
+* Python 3.13+
 * CustomTkinter - GUI
 * Matplotlib - wykresy
 * Numpy - linia trendu
