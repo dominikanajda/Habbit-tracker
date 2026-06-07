@@ -13,34 +13,34 @@ Aplikacja umożliwia podgląd statystyk z linią trendu.
 6. **.gitignore** - pliki zignorowane przez Git.
 
 ## Wymagania
-⋅⋅* Python 2.11 lub nowszy
-⋅⋅* pip
+- Python 2.11 lub nowszy
+- pip
 
 ## Instalacja i uruchomienie
 1. Sklonuj repozytorium
 2. Zainstaluj zależności:
-⋅⋅⋅ pip install -r requirements.txt
+   pip install -r requirements.txt
 3. Uruchom aplikację
-⋅⋅⋅ python main.py
+   python main.py
 
 ## Jak używać
 1. Przy pierwszym uruchomieniu wypełnij formularz:
-⋅⋅* wpisz nazwę sesji
-⋅⋅* wybierz miesiąc i rok (obecny lub poprzedni)
-⋅⋅* dodaj nawyki które chcesz śledzić (zasugerowane lub wpisz własne)
+- wpisz nazwę sesji
+- wybierz miesiąc i rok (obecny lub poprzedni)
+- dodaj nawyki które chcesz śledzić (zasugerowane lub wpisz własne)
 2. Kliknij START - otworzy się tabela z siatką nawyków i dniami wybranego miesiąca
 3. Zaznaczaj checkboxy dla każdego minionego dnia
 4. Kliknij _Statystyki_ aby zobaczyć wykres postępu
 5. Kliknij _Reset_ aby rozpocząć nową sesję
 
 ## Funkcje 
-⋅⋅* Siatka nawyków - wiersze to nawyki, kolumny to dni miesiąca
-⋅⋅* Automatyczna liczba dni na podstawie wybranego miesiąca
-⋅⋅* Statystyki - wykres postępu
-⋅⋅* Reset sesji i tworzenie nowej
++ Siatka nawyków - wiersze to nawyki, kolumny to dni miesiąca
++ Automatyczna liczba dni na podstawie wybranego miesiąca
++ Statystyki - wykres postępu
++ Reset sesji i tworzenie nowej
 
 ## Technologie
-⋅⋅* Python 2.11+
-⋅⋅* CustomTkinter - GUI
-⋅⋅* Matplotlib - wykresy
-⋅⋅* Numpy
+* Python 2.11+
+* CustomTkinter - GUI
+* Matplotlib - wykresy
+* Numpy
