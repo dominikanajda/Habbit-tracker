@@ -43,4 +43,4 @@ Aplikacja umożliwia podgląd statystyk z linią trendu.
 * Python 2.11+
 * CustomTkinter - GUI
 * Matplotlib - wykresy
-* Numpy
+* Numpy - linia trendu
